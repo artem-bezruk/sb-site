@@ -14,4 +14,4 @@ This course is going to introduce the concept of using APIs via GitHub’s Graph
 ### More Examples
 * Here's another
 * Here's a picture
-![graphql](/img/download.png)
+![graphql](/img/graphql.png)
