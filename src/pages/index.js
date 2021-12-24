@@ -19,7 +19,7 @@ export default class IndexPage extends React.Component {
     return (
       <section className="section">
         <Helmet>
-          <script async src="https:
+          <script src="https:
         </Helmet>
         <div className="container">
           {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
