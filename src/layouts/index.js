@@ -7,7 +7,7 @@ import logo from '../img/logo.svg';
 import './all.sass';
 const Navbar = () => (
   <nav className="navbar is-transparent">
-    <div className="container flex-column-mobile">
+    <div className="container">
       <div className="navbar-brand">
         <Link to="/" className="navbar-item">
           <figure className="image">
