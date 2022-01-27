@@ -7,6 +7,7 @@ import grid2 from '../pages/product/img/products/products-grid2.jpg';
 import grid3 from '../pages/product/img/products/products-grid3.jpg';
 import fullWidth from '../pages/product/img/products/products-full-width.jpg';
 export default ({ data }) => {
+  console.log(data);
   const { frontmatter } = data.markdownRemark;
   return (
     <section className="section section--gradient">
@@ -16,6 +17,7 @@ export default ({ data }) => {
             <div className="column is-10 is-offset-1">
               <div className="content">
                 <h2 className="has-text-weight-bold is-size-1">{frontmatter.title}</h2>
+                <img src={frontmatter.image} alt="" />
                 <div className="columns">
                   <div className="column is-7">
                     <h3 className="has-text-weight-semibold is-size-2">{frontmatter.heading}</h3>
@@ -103,6 +105,17 @@ export const productPageQuery = graphql`
             items
             plan
             price
+          }
+        }
+      }
+    }
+    images: allImageSharp {
+      edges {
+        node {
+          ... on ImageSharp {
+            resize(width: 125, height: 125, rotate: 180) {
+              src
+            }
           }
         }
       }
