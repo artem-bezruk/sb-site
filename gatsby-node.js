@@ -30,7 +30,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
                 blurbs {
                   image {
                     childImageSharp {
-                      resolutions(width: 400) {
+                      resolutions(width: 220) {
                         width
                         height
                         src
@@ -117,7 +117,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     }
   `).then(result => {
     if (result.errors) {
-      console.log(result.errors);
       return Promise.reject(result.errors);
     }
     result.data.allMarkdownRemark.edges.forEach(({ node }) => {
