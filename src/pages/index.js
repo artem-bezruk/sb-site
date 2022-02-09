@@ -1,8 +1,9 @@
 import React from 'react';
 import Link from 'gatsby-link';
 import Helmet from 'react-helmet';
+import Script from 'react-load-script';
 export default class IndexPage extends React.Component {
-  componentDidMount() {
+  handleScriptLoad() {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', user => {
         if (!user) {
@@ -12,15 +13,17 @@ export default class IndexPage extends React.Component {
         }
       });
     }
+    window.netlifyIdentity.init();
   }
   render() {
     const { data } = this.props;
     const { edges: posts } = data.allMarkdownRemark;
     return (
       <section className="section">
-        <Helmet>
-          <script src="https:
-        </Helmet>
+        <Script
+          url="https:
+          onLoad={this.handleScriptLoad.bind(this)}
+        />
         <div className="container">
           <div className="content">
             <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
