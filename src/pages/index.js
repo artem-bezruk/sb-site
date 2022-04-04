@@ -5,7 +5,7 @@ import Script from 'react-load-script';
 export default class IndexPage extends React.Component {
   handleScriptLoad() {
     if (window.netlifyIdentity) {
-      window.netlifyIdentity.on('init', user => {
+      window.netlifyIdentity.on('init', (user) => {
         if (!user) {
           window.netlifyIdentity.on('login', () => {
             document.location.href = '/admin/';
@@ -28,9 +28,8 @@ export default class IndexPage extends React.Component {
           <div className="content">
             <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
           </div>
-          {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => {
-            return (
-              <div className="content" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
+          {posts.filter(post => post.node.frontmatter.templateKey === 'blog-post').map(({ node: post }) => (
+            <div className="content" style={{ border: '1px solid #eaecee', padding: '2em 4em' }} key={post.id}>
                 <p>
                   <Link className="has-text-primary" to={post.frontmatter.path}>
                     {post.frontmatter.title}
@@ -47,8 +46,7 @@ export default class IndexPage extends React.Component {
                   </Link>
                 </p>
               </div>
-            );
-          })}
+            ))}
         </div>
       </section>
     );
