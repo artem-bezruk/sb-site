@@ -20,9 +20,6 @@ module.exports = {
     ],
   },
   resolve: {
-    alias: {
-      site: '../src/',
-    },
     extensions: [
       '.js',
       '.jsx',
