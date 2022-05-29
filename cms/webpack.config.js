@@ -1,4 +1,4 @@
-const path = require('path');
+const path = require('path')
 module.exports = {
   entry: './cms.js',
   output: {
@@ -8,7 +8,7 @@ module.exports = {
   module: {
     rules: [
       {
-        test: /\.jsx?$/,
+        test: /\.js$/,
         exclude: /node_modules/,
         use: {
           loader: 'babel-loader',
@@ -20,9 +20,8 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: [
-      '.js',
-      '.jsx',
-    ],
+    alias: {
+      site: '../src/',
+    },
   },
-};
+}
