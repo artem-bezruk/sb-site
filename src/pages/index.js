@@ -3,7 +3,7 @@ import Link from 'gatsby-link';
 import Script from 'react-load-script';
 import graphql from 'graphql';
 export default class IndexPage extends React.Component {
-  static handleScriptLoad() {
+  handleScriptLoad() {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on('init', (user) => {
         if (!user) {
