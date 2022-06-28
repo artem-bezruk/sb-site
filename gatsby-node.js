@@ -70,14 +70,15 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       return Promise.reject(result.errors);
     }
     return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
+      const pagePath = node.frontmatter.path;
       createPage({
-        path: node.frontmatter.path,
+        path: pagePath,
         component: path.resolve(
           `src/templates/${String(node.frontmatter.templateKey)}.js`
         ),
         context: {
-          path: node.frontmatter.path
-        } 
+          path: pagePath
+        }
       });
     });
   });
