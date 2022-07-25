@@ -1,5 +1,4 @@
 import React from 'react'
-import graphql from 'graphql'
 import Helmet from 'react-helmet'
 import Content, { HTMLContent } from '../components/Content'
 export const BlogPostTemplate = ({
@@ -27,8 +26,8 @@ export const BlogPostTemplate = ({
     </section>
   )
 }
-export default ({ data }) => {
-  const { markdownRemark: post } = data
+export default props => {
+  const { markdownRemark: post } = props.data
   return (
     <BlogPostTemplate
       content={post.html}
