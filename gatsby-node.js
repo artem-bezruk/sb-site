@@ -1,4 +1,4 @@
-const path = require("path")
+const path = require('path')
 exports.createPages = ({ boundActionCreators, graphql }) => {
   const { createPage } = boundActionCreators
   return graphql(`
@@ -6,6 +6,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       allMarkdownRemark(limit: 1000) {
         edges {
           node {
+            id
             frontmatter {
               path
               templateKey
@@ -19,14 +20,17 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
       result.errors.forEach(e => console.error(e.toString()))
       return Promise.reject(result.errors)
     }
-    return result.data.allMarkdownRemark.edges.forEach(({ node }) => {
-      const pagePath = node.frontmatter.path
+    result.data.allMarkdownRemark.edges.forEach(edge => {
+      const id = edge.node.id
+      const pagePath = edge.node.frontmatter.path
       createPage({
         path: pagePath,
         component: path.resolve(
-          `src/templates/${String(node.frontmatter.templateKey)}.js`
+          `src/templates/${String(edge.node.frontmatter.templateKey)}.js`
         ),
-        context: {},
+        context: {
+          id,
+        },
       })
     })
   })
