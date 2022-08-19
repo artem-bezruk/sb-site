@@ -23,7 +23,7 @@ export const AboutPageTemplate = ({ title, content, contentComponent }) => {
 AboutPageTemplate.propTypes = {
   title: PropTypes.string.isRequired,
   content: PropTypes.string,
-  contentComponent: PropTypes.instanceOf(React.Component),
+  contentComponent: PropTypes.func,
 }
 const AboutPage = ({ data }) => {
   const { markdownRemark: post } = data
