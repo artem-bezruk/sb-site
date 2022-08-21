@@ -1,6 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types'
-const Testimonials = ({ testimonials }) => (
+export default ({ testimonials }) => (
   <div>
     {testimonials.map(testimonial => (
       <article className="message">
@@ -13,12 +12,3 @@ const Testimonials = ({ testimonials }) => (
     ))}
   </div>
 )
-Testimonials.propTypes = {
-  testimonials: PropTypes.arrayOf(
-    PropTypes.shape({
-      quote: PropTypes.string,
-      author: PropTypes.string,
-    })
-  ),
-}
-export default Testimonials

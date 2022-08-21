@@ -1,5 +1,4 @@
 import React from 'react'
-import PropTypes from 'prop-types'
 const FeatureGrid = ({ gridItems }) => (
   <div className="columns is-multiline">
     {gridItems.map(item => (
@@ -14,12 +13,4 @@ const FeatureGrid = ({ gridItems }) => (
     ))}
   </div>
 )
-FeatureGrid.propTypes = {
-  gridItems: PropTypes.arrayOf(
-    PropTypes.shape({
-      image: PropTypes.string,
-      text: PropTypes.string,
-    })
-  ),
-}
 export default FeatureGrid
