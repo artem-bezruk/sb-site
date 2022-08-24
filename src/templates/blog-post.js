@@ -1,4 +1,5 @@
 import React from 'react'
+import PropTypes from 'prop-types'
 import { kebabCase } from 'lodash'
 import Helmet from 'react-helmet'
 import Link from 'gatsby-link'
@@ -41,8 +42,15 @@ export const BlogPostTemplate = ({
     </section>
   )
 }
-export default props => {
-  const { markdownRemark: post } = props.data
+BlogPostTemplate.propTypes = {
+  content: PropTypes.string.isRequired,
+  contentComponent: PropTypes.func,
+  description: PropTypes.string,
+  title: PropTypes.string,
+  helmet: PropTypes.instanceOf(Helmet),
+}
+const BlogPost = ({ data }) => {
+  const { markdownRemark: post } = data
   return (
     <BlogPostTemplate
       content={post.html}
@@ -54,6 +62,12 @@ export default props => {
     />
   )
 }
+BlogPost.propTypes = {
+  data: PropTypes.shape({
+    markdownRemark: PropTypes.object,
+  }),
+}
+export default BlogPost
 export const pageQuery = graphql`
   query BlogPostByID($id: String!) {
     markdownRemark(id: { eq: $id }) {
