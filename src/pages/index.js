@@ -12,6 +12,7 @@ export default class IndexPage extends React.Component {
             <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
           </div>
           {posts
+            .filter(post => post.node.frontmatter.templateKey === 'blog-post')
             .map(({ node: post }) => (
               <div
                 className="content"
@@ -49,10 +50,7 @@ IndexPage.propTypes = {
 }
 export const pageQuery = graphql`
   query IndexQuery {
-    allMarkdownRemark(
-      sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
-    ) {
+    allMarkdownRemark(sort: { order: DESC, fields: [frontmatter___date] }) {
       edges {
         node {
           excerpt(pruneLength: 400)
