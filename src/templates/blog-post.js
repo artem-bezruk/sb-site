@@ -48,7 +48,7 @@ BlogPostTemplate.propTypes = {
   contentComponent: PropTypes.func,
   description: PropTypes.string,
   title: PropTypes.string,
-  helmet: PropTypes.instanceOf(Helmet),
+  helmet: PropTypes.object,
 }
 const BlogPost = ({ data }) => {
   const { markdownRemark: post } = data
@@ -58,7 +58,14 @@ const BlogPost = ({ data }) => {
         content={post.html}
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
-        helmet={<Helmet title={`${post.frontmatter.title} | Blog`} />}
+        helmet={
+          <Helmet
+            titleTemplate="%s | Blog"
+          >
+            <title>{`${post.frontmatter.title}`}</title>
+            <meta name="description" content={`${post.frontmatter.description}`} />
+          </Helmet>
+        }
         tags={post.frontmatter.tags}
         title={post.frontmatter.title}
       />
