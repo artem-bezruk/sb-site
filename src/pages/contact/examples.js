@@ -19,6 +19,8 @@ export default class Index extends React.Component {
               <h2>Troubleshooting</h2>
               <h3>Forms stop working after upgrading to Gatsby v2</h3>
               <p>This can be caused by the offline-plugin. <a href="https:
+              <h3>Adding reCAPTCHA</h3>
+              <p>If you are planning to add reCAPTCHA please go to <a href="https:
             </div>
           </div>
         </section>
