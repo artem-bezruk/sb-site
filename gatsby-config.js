@@ -53,6 +53,7 @@ module.exports = {
         modulePath: `${__dirname}/src/cms/cms.js`,
       },
     },
+    'gatsby-plugin-purgecss', 
     'gatsby-plugin-netlify', 
   ],
 }
