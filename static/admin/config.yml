@@ -40,3 +40,27 @@ collections:
           - {label: Testimonials, name: testimonials, widget: list, fields: [{label: Quote, name: quote, widget: string}, {label: Author, name: author, widget: string}]}
           - {label: Full_image, name: full_image, widget: image}
           - {label: Pricing, name: pricing, widget: object, fields: [{label: Heading, name: heading, widget: string}, {label: Description, name: description, widget: string}, {label: Plans, name: plans, widget: list, fields: [{label: Plan, name: plan, widget: string}, {label: Price, name: price, widget: string}, {label: Description, name: description, widget: string}, {label: Items, name: items, widget: list}]}]}
+  - name: "events"
+    label: "Event"
+    folder: "src/pages/events"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Start Date", name: "start", widget: "datetime", format: "LL"}
+      - {label: "End Date", name: "end", widget: "datetime", format: "LL"}
+      - {label: "Description", name: "description", widget: "text"}
+      - {label: "Event Page", name: "eventurl", widget: "string", default: "#"}
+      - {label: "Image", name: "image", widget: image}
+  - name: "posts"
+    label: "Post"
+    folder: "src/pages/posts"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "posts"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime", format: "LL"}
+      - {label: "Content", name: "content", widget: "text"}
+      - {label: "Image", name: "image", widget: image}
