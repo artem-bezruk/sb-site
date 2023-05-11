@@ -1,5 +1,5 @@
 ---
-templateKey: event-info
+templateKey: event
 title: Hello
 start: 'January 20, 2019'
 end: 'January 20, 2019'

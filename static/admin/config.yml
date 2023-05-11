@@ -46,7 +46,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "events"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "event"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Start Date", name: "start", widget: "datetime", format: "LL"}
       - {label: "End Date", name: "end", widget: "datetime", format: "LL"}
@@ -59,7 +59,7 @@ collections:
     create: true
     slug: "{{slug}}"
     fields:
-      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "posts"}
+      - {label: "Template Key", name: "templateKey", widget: "hidden", default: "post"}
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime", format: "LL"}
       - {label: "Content", name: "content", widget: "text"}

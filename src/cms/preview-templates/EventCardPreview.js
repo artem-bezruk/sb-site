@@ -1,6 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
-import { EventCardTemplate } from '../../templates/event-card'
+import { EventCardTemplate } from '../../templates/event'
 const EventCardPreview = ({ entry, widgetFor }) => (
   <EventCardTemplate
     description={entry.getIn(['data', 'description'])}
