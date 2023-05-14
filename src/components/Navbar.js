@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import github from '../img/github-icon.svg'
 const Navbar = class extends React.Component {
   componentDidMount() {
    const $navbarBurgers = Array.prototype.slice.call(document.querySelectorAll('.navbar-burger'), 0);
@@ -36,6 +35,9 @@ const Navbar = class extends React.Component {
         <Link className="navbar-item" to="/about">
           About
         </Link>
+        <Link className="navbar-item" to="/events">
+          Events
+        </Link>
         <Link className="navbar-item" to="/products">
           Products
         </Link>
@@ -45,18 +47,6 @@ const Navbar = class extends React.Component {
         <Link className="navbar-item" to="/contact/examples">
           Form Examples
         </Link>
-      </div>
-      <div className="navbar-end has-text-centered">
-        <a
-          className="navbar-item"
-          href="https:
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <span className="icon">
-            <img src={github} alt="Github" />
-          </span>
-        </a>
       </div>
       </div>
     </div>

@@ -13,6 +13,7 @@ export default class IndexPage extends React.Component {
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
             </div>
+            <div className="story-container">
             {posts
               .map(({ node: post }) => (
                 <div
@@ -37,6 +38,7 @@ export default class IndexPage extends React.Component {
                   </p>
                 </div>
               ))}
+              </div>
           </div>
         </section>
       </Layout>
