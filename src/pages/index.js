@@ -13,12 +13,11 @@ export default class IndexPage extends React.Component {
             <div className="content">
               <h1 className="has-text-weight-bold is-size-2">Latest Stories</h1>
             </div>
-            <div className="story-container">
+            <div className="stories">
             {posts
               .map(({ node: post }) => (
                 <div
-                  className="content"
-                  style={{ border: '1px solid #333', padding: '2em 4em' }}
+                  className="content story"
                   key={post.id}
                 >
                   <p>
@@ -60,7 +59,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 400)
+          excerpt(pruneLength: 300)
           id
           fields {
             slug
