@@ -2,12 +2,14 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
+import Title from "../components/Title";
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
     const { edges: posts } = data.allMarkdownRemark
     return (
       <Layout>
+        <Title />
         <section className="section">
           <div className="container">
             <div className="content">
@@ -20,12 +22,11 @@ export default class IndexPage extends React.Component {
                   className="content story"
                   key={post.id}
                 >
+                  <p className="has-text-weight-semibold has-text-grey">{post.frontmatter.date}</p>
                   <p>
-                    <Link className="has-text-primary is-size-3" to={post.fields.slug}>
+                    <Link className="has-text-primary has-text-weight-bold is-size-3" to={post.fields.slug}>
                       {post.frontmatter.title}
                     </Link>
-                    <span> &bull; </span>
-                    <small>{post.frontmatter.date}</small>
                   </p>
                   <p>
                     {post.excerpt}
@@ -59,7 +60,7 @@ export const pageQuery = graphql`
     ) {
       edges {
         node {
-          excerpt(pruneLength: 300)
+          excerpt(pruneLength: 200)
           id
           fields {
             slug
