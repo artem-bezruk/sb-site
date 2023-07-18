@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Link, graphql } from 'gatsby'
 import Layout from '../components/Layout'
-import Title from "../components/Title";
+import {Title,Societies} from "../components/Title";
 export default class IndexPage extends React.Component {
   render() {
     const { data } = this.props
@@ -10,6 +10,7 @@ export default class IndexPage extends React.Component {
     return (
       <Layout>
         <Title />
+        <Societies />
         <section className="section">
           <div className="container">
             <div className="content">
@@ -56,7 +57,8 @@ export const pageQuery = graphql`
   query IndexQuery {
     allMarkdownRemark(
       sort: { order: DESC, fields: [frontmatter___date] },
-      filter: { frontmatter: { templateKey: { eq: "blog-post" } }}
+      filter: { frontmatter: { templateKey: { eq: "blog-post" } }},
+      limit: 4
     ) {
       edges {
         node {

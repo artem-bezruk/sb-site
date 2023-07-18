@@ -1,6 +1,6 @@
 import React from 'react'
 import tkm from '../img/tkm.png'
-const Title = class extends React.Component {
+export const Title = class extends React.Component {
     render(){
         return (
             <section className="hero landing is-fullheight is-transparent">
@@ -31,22 +31,23 @@ const Title = class extends React.Component {
                         </div>
                     </div>
                 </div>
-                <div className="hero-foot">
-                    <div className="container">
-                        <div className="tabs" >
-                            <ul style={{display:"flex",justifyContent:"space-between"}}>
-                                <li><img className="hero-logo" src="img/cs-logo.gif" alt="cs-logo" /></li>
-                                <li><img className="hero-logo" src="img/ias-logo.png" alt="ias-logo" /></li>
-                                <li><img className="hero-logo" src="img/pes-logo.png" alt="pes-logo" /></li>
-                                <li><img className="hero-logo" src="img/ras-logo.png" alt="ras-logo" /></li>
-                                <li><img className="hero-logo" src="img/sight-logo.png" alt="sight-logo" /></li>
-                                <li><img className="hero-logo" src="img/wie-logo.gif" alt="wie-logo" /></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
             </section>
         )
     }
 }
-export default Title
+export const Societies=()=>(
+    <section className="hero-foot">
+        <div className="container">
+            <div className="tabs" >
+                <ul style={{display:"flex",justifyContent:"space-between"}}>
+                    <li><img className="hero-logo" src="img/cs-logo.gif" alt="cs-logo" /></li>
+                    <li><img className="hero-logo" src="img/ias-logo.png" alt="ias-logo" /></li>
+                    <li><img className="hero-logo" src="img/pes-logo.png" alt="pes-logo" /></li>
+                    <li><img className="hero-logo" src="img/ras-logo.png" alt="ras-logo" /></li>
+                    <li><img className="hero-logo" src="img/sight-logo.png" alt="sight-logo" /></li>
+                    <li><img className="hero-logo" src="img/wie-logo.gif" alt="wie-logo" /></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+)

@@ -2,7 +2,7 @@ import React from 'react'
 const Footer = class extends React.Component {
     render(){
         return(
-        <footer className="footer">
+        <footer className="footer content">
         <div className="container">
             <div className="columns">
                 <div className="column is-4">
@@ -31,13 +31,13 @@ const Footer = class extends React.Component {
                         <h3>Follow us</h3>
                         <div>
                             <a href="https:
-                                <i className="fab fa-facebook-square"></i>
+                                <span class="icon is-medium"><img src="img/icons/facebook-box.svg" alt="facebook" /></span>
                             </a>
                             <a href="https:
-                                <i className="fab fa-twitter-square"></i>
+                            <span class="icon is-medium"><img src="img/icons/twitter-box.svg" alt="twitter" /></span>
                             </a>
                             <a href="https:
-                                <i className="fab fa-instagram"></i>
+                            <span class="icon is-medium"><img src="img/icons/instagram.svg" alt="instagram" /></span>
                             </a>
                         </div>
                     </div>
