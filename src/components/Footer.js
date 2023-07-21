@@ -31,13 +31,13 @@ const Footer = class extends React.Component {
                         <h3>Follow us</h3>
                         <div>
                             <a href="https:
-                                <span class="icon is-medium"><img src="img/icons/facebook-box.svg" alt="facebook" /></span>
+                                <span className="icon is-medium"><img src="img/icons/facebook-box.svg" alt="facebook" /></span>
                             </a>
                             <a href="https:
-                            <span class="icon is-medium"><img src="img/icons/twitter-box.svg" alt="twitter" /></span>
+                            <span className="icon is-medium"><img src="img/icons/twitter-box.svg" alt="twitter" /></span>
                             </a>
                             <a href="https:
-                            <span class="icon is-medium"><img src="img/icons/instagram.svg" alt="instagram" /></span>
+                            <span className="icon is-medium"><img src="img/icons/instagram.svg" alt="instagram" /></span>
                             </a>
                         </div>
                     </div>

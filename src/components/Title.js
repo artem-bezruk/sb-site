@@ -6,14 +6,14 @@ export const Title = class extends React.Component {
             <section className="hero landing is-fullheight is-transparent">
                 <div className="hero-decoration-left" style={{backgroundImage:"url(img/hero-bg-left.svg)"}}></div>
                 <div className="hero-decoration-right" style={{backgroundImage:"url(img/hero-bg-right.svg)"}}></div>
-                <div className="hero-body">
+                <div className="hero-body" style={{paddingTop: '100px'}}>
                     <div className="container">
                         <div className="columns is-vcentered">
                             {}
                             <div className="column is-5 ">
                                 <h1 className="title is-1 is-light is-semibold is-spaced">IEEE SB TKMCE</h1>
                                 <h2 className="subtitle is-5 is-light is-thin">
-                                Bring the benefits of the great organization to the society and to contribute to the technical centric approach.
+                                Bringing the benefits of the great organization to the society and to contribute to the technical centric approach.
                                 </h2>
                                 {}
                                 <p>
