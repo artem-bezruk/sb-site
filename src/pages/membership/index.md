@@ -2,19 +2,35 @@
 templateKey: membership-page
 title: About
 ---
-### About TKM College of Engineering
-Set in a lush green backdrop amidst the sprawling backwaters of Kollam stands TKMCE – an amazing structure with its monumental accents- domes, minarets, et al intricate in both style and design. An elite institution, noted to be the best in the state, imparting to its students the ability to dream and excel with innovation. An institution that is the alma mater of every successful person in India and the first pits top of a top-notch company. It stands, to date, like a pearl in the ocean of technical education and basks in the glory of providing true engineers to the global fraternity. 
-### IEEE Student Branch TKMCE
-IEEE, a nonprofit organization is the world’s leading professional association for the advancement of technology through its 400,000 members including 100,000 student members in more than 160 countries. IEEE is the ‘trusted voice’ for engineering, computing and technology information around the globe. TKM College of Engineering has stood as a symbol of excellence in engineering education for the past five decades and had the last five years brimming with IEEE Student Branch activities of all kinds ranging from technical to managerial adventure to entertainment. The IEEE SB of TKMCE was formed on 22nd November, 1986. It is the largest SB with more than 115 new members for the year 2013. We won the Region10 Exemplary Student Branch Award for the third best SB in the Asia Pacific Region. We celebrated the Silver Jubilee of establishment in the year 2010. We have an active PES, RAS, CS and IAS chapters, WIE affinity group, and a special interest group SIGHT. 
-### Sustainable farming
-Sustainable agriculture is farming in sustainable ways based on an understanding of ecosystem services, the study of relationships between organisms and their environment. What grows where and how it is grown are a matter of choice and careful consideration for nature and communities.
-### Vision
-To reach the benefits of the great organization to the society and to contribute to the technical centric approach.
-### Mission
-To provide a platform for the members to
-* Expand the horizon of their knowledge.
-* Exercise and adopt their knowledge for the common good.
-* Develop their managerial and organizational skills
-* Celebrate the spirit of working together
-* Implement willful contributions, be it technical or non- technical
-* Discern,follow and help follow the code of ethics
+### How to join?
+For IEEE international, the membership fees is 27$ (USD);roughly 1800INR Each IEEE member is a part of the Student Branch. Membership is valid for a Calendar Year (not academic year) We start taking applications for memberships from September (posters will be put up and will be announced on website and college/class notice board) or you can [Join Now](http://www.ieee.org/membership_services/membership/join/index.html)
+### Why join IEEE?
+IEEE memberships support technical innovation for humanity and the profession. Access to cutting-edge information, networking opportunities, career enhancement, and many other exclusive member benefits are the key values of IEEE membership.
+* ### Access to cutting-edge knowledge
+  * [IEEE Spectrum Magazine](http://www.ieee.org/publications_standards/index.html) –Monthly (12 issues, print and online)
+  * [The Institute Newsletter](http://www.ieee.org/publications_standards/index.html) –Monthly (12 issues: 4 print, 8 online)
+  * [IEEE Potentials Magazine](http://www.ieee.org/membership_services/membership/students/potentials.html) –Bimonthly (6 issues, online), dedicated to undergraduate and graduate students and young professionals
+  * [IEEE Xplore](http://www.ieee.org/publications_standards/index.html) –Table-of-content and abstract access to 3-million documents
+  * What ’s New @ IEEE –Monthly electronic newsletter, the latest top 10 technical news directly
+* ### Networking Opportunities
+  IEEE membership offers several benefits that will help you keep connected and buy power of a global community of professionals with over 400,000 members in 160 countries.
+  * [Local Sections and Chapters ](http://www.ieee.org/web/membership/benefits/products/prod_sections.html)–network with others in the local member community, and participate in local educational events
+  * Technical Chapters –engage with others through informative technical meetings
+  * IEEE e-mail alias –with virus protection and spam filtering
+  * Volunteering –Volunteer members involved with student activities in over 2,150 student branches have opportunities to build leadership skills and networking opportunities
+  * myIEEE –members-only personalized gateway into IEEE membership
+  * IEEE Young Professionals –A vibrant community of engineers, scientists, and technical experts of Graduates of the Last Decade .
+  * IEEE Women in Engineering –The Largest international professional organization dedicated to promoting women engineers and scientists.
+  * IEEE Mentor Center –It is an online voluntarily program that enables IEEE members to establish a mentoring partnership relationship.
+* ### Profession
+  IEEE membership builds a platform to introduce technology careers to students, to empower them to build and own their careers, and to enhance their resume.
+  * IEEE Job Site –locate career opportunities easily and confidentially
+  * Awards, scholarships, and fellowships –Up to $250,000 is awarded to IEEE Student Members per year to recognize the accomplishments of technologists and engineers worldwide! This is available for undergraduate and graduate students; it includes student paper contests and IEEE Student Branch Contests. For detailed information, check out the links.
+  * Student Competitions –A variety of local, regional, and global competitions offer students the opportunity to develop professionally and technically, get involved, have fun, and take the challenge
+  * Continuing Education Provider Program –up to a 10% discount on online degree programs
+  * Today 's Engineer –monthly webzine devoted to the issues affecting IEEE members careers
+* ### Add-On Benefits
+  IEEE Member Discounts, in general, and student member discount, in particular, offer substantial cost savings on various products and services as a benefit of IEEE membership. Graduate Students reap the benefits such as discounts on many technical resources, reduced registration fees for conferences, plus student discounts on society memberships, and so on. In addition, there are several IEEE sponsored discounts.
+  * Conference &Event Discounts –Sponsoring more than 1,100 annual conferences and meetings worldwide, IEEE provides a unique member discount. While conference cost for non-members ranges $500 –$1200, for IEEE Student Member it reduces hugely. Check out the IEEE conferences you can search 2012 if you just want to browse them.
+  * IEEE discounted products –Many IEEE core products, including Books &eBooks , IEEE eLearning Library , IEEE Society Memberships , Digital Library Subscriptions , and Standards are discounted as a benefit of membership.
+  * IEEE sponsored discounts –A snapshot of the Member Discounts portfolio is provided in this link. The list includes Insurance , Home/Office services , Technology (Dell, HP), Travel (car rental, credit card), with as much as 50% off IEEE products.
