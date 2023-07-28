@@ -15,22 +15,22 @@ IEEE memberships support technical innovation for humanity and the profession. A
 * ### Networking Opportunities
   IEEE membership offers several benefits that will help you keep connected and buy power of a global community of professionals with over 400,000 members in 160 countries.
   * [Local Sections and Chapters ](http://www.ieee.org/web/membership/benefits/products/prod_sections.html)–network with others in the local member community, and participate in local educational events
-  * Technical Chapters –engage with others through informative technical meetings
-  * IEEE e-mail alias –with virus protection and spam filtering
+  * [Technical Chapters](http://www.ieee.org/web/membership/benefits/products/prod_chapters.html) –engage with others through informative technical meetings
+  * [IEEE e-mail alias](http://www.ieee.org/web/membership/benefits/products/prod_emailalias.html) –with virus protection and spam filtering
   * Volunteering –Volunteer members involved with student activities in over 2,150 student branches have opportunities to build leadership skills and networking opportunities
-  * myIEEE –members-only personalized gateway into IEEE membership
-  * IEEE Young Professionals –A vibrant community of engineers, scientists, and technical experts of Graduates of the Last Decade .
-  * IEEE Women in Engineering –The Largest international professional organization dedicated to promoting women engineers and scientists.
-  * IEEE Mentor Center –It is an online voluntarily program that enables IEEE members to establish a mentoring partnership relationship.
+  * [myIEEE](http://www.ieee.org/membership_services/membership/students/index.html) –members-only personalized gateway into IEEE membership
+  * [IEEE Young Professionals](http://www.ieee.org/membership_services/membership/gold/index.html) –A vibrant community of engineers, scientists, and technical experts of Graduates of the Last Decade .
+  * [IEEE Women in Engineering](http://www.ieee.org/membership_services/membership/women/DF_IEEE_MIG_MCT_99124) –The Largest international professional organization dedicated to promoting women engineers and scientists.
+  * [IEEE Mentor Center](http://www.ieee.org/membership_services/membership/young_professionals/mentoring_connection.html?WT.mc_id=fm2_joi_vis) –It is an online voluntarily program that enables IEEE members to establish a mentoring partnership relationship.
 * ### Profession
   IEEE membership builds a platform to introduce technology careers to students, to empower them to build and own their careers, and to enhance their resume.
-  * IEEE Job Site –locate career opportunities easily and confidentially
-  * Awards, scholarships, and fellowships –Up to $250,000 is awarded to IEEE Student Members per year to recognize the accomplishments of technologists and engineers worldwide! This is available for undergraduate and graduate students; it includes student paper contests and IEEE Student Branch Contests. For detailed information, check out the links.
-  * Student Competitions –A variety of local, regional, and global competitions offer students the opportunity to develop professionally and technically, get involved, have fun, and take the challenge
-  * Continuing Education Provider Program –up to a 10% discount on online degree programs
-  * Today 's Engineer –monthly webzine devoted to the issues affecting IEEE members careers
+  * [IEEE Job Site](http://careers.ieee.org/) –locate career opportunities easily and confidentially
+  * [Awards, scholarships, and fellowships](http://www.ieee.org/membership_services/membership/students/awards/index.html) –Up to $250,000 is awarded to IEEE Student Members per year to recognize the accomplishments of technologists and engineers worldwide! This is available for undergraduate and graduate students; it includes student paper contests and IEEE Student Branch Contests. For detailed information, check out the links.
+  * [Student Competitions](http://www.ieee.org/membership_services/membership/students/competitions/index.html) –A variety of local, regional, and global competitions offer students the opportunity to develop professionally and technically, get involved, have fun, and take the challenge
+  * [Continuing Education Provider Program](http://www.ieee.org/education_careers/education/partners/index.html) –up to a 10% discount on online degree programs
+  * [Today 's Engineer](http://www.ieee.org/web/membership/benefits/products/prod_usatodayeng.html) –monthly webzine devoted to the issues affecting IEEE members careers
 * ### Add-On Benefits
   IEEE Member Discounts, in general, and student member discount, in particular, offer substantial cost savings on various products and services as a benefit of IEEE membership. Graduate Students reap the benefits such as discounts on many technical resources, reduced registration fees for conferences, plus student discounts on society memberships, and so on. In addition, there are several IEEE sponsored discounts.
-  * Conference &Event Discounts –Sponsoring more than 1,100 annual conferences and meetings worldwide, IEEE provides a unique member discount. While conference cost for non-members ranges $500 –$1200, for IEEE Student Member it reduces hugely. Check out the IEEE conferences you can search 2012 if you just want to browse them.
-  * IEEE discounted products –Many IEEE core products, including Books &eBooks , IEEE eLearning Library , IEEE Society Memberships , Digital Library Subscriptions , and Standards are discounted as a benefit of membership.
-  * IEEE sponsored discounts –A snapshot of the Member Discounts portfolio is provided in this link. The list includes Insurance , Home/Office services , Technology (Dell, HP), Travel (car rental, credit card), with as much as 50% off IEEE products.
+  * [Conference &Event Discounts](http://www.ieee.org/conferences_events/index.html) –Sponsoring more than 1,100 annual conferences and meetings worldwide, IEEE provides a unique member discount. While conference cost for non-members ranges $500 –$1200, for IEEE Student Member it reduces hugely. Check out the[ IEEE conferences](http://www.ieee.org/web/conferences/search/index.html) you can search 2012 if you just want to browse them.
+  * [IEEE discounted products](http://www.ieee.org/membership_services/membership/discounts/index.html) –Many IEEE core products, including Books &eBooks , IEEE eLearning Library , IEEE Society Memberships , Digital Library Subscriptions , and Standards are discounted as a benefit of membership.
+  * [IEEE sponsored discounts](http://www.ieee.org/membership_services/membership/discounts/index.html) –A snapshot of the Member Discounts portfolio is provided in this link. The list includes Insurance , Home/Office services , Technology (Dell, HP), Travel (car rental, credit card), with as much as 50% off IEEE products.
