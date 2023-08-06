@@ -1,6 +1,6 @@
 ---
 templateKey: membership-page
-title: About
+title: Join IEE
 ---
 ### How to join?
 For IEEE international, the membership fees is 27$ (USD);roughly 1800INR Each IEEE member is a part of the Student Branch. Membership is valid for a Calendar Year (not academic year) We start taking applications for memberships from September (posters will be put up and will be announced on website and college/class notice board) or you can [Join Now](http://www.ieee.org/membership_services/membership/join/index.html)
