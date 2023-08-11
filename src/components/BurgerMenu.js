@@ -15,6 +15,9 @@ const BurgerMenu = class extends React.Component {
       <Link to="/membership">
         Join IEEE
       </Link>
+      <Link to="/execom">
+        Execom
+      </Link>
     </Menu>
   )}
 }
