@@ -18,6 +18,9 @@ const BurgerMenu = class extends React.Component {
       <Link to="/execom">
         Execom
       </Link>
+      <Link to="/blog">
+        Stories
+      </Link>
     </Menu>
   )}
 }

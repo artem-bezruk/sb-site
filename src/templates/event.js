@@ -12,8 +12,6 @@ export const EventCardTemplate = ({
   eventurl,
   helmet,
 }) => {
-    console.log(start)
-    console.log(typeof(start))
   return (
     <section className="section">
       {helmet || ''}
