@@ -40,6 +40,7 @@ export default class IndexPage extends React.Component {
                 </div>
               ))}
               </div>
+              <div style={{float: "right", padding: '30px'}} ><Link className="gradient-button" to="/blog">Keep Reading</Link></div>
           </div>
         </section>
       </Layout>
